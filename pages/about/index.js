@@ -6,6 +6,8 @@ import Circles from "../../components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
+import CountUp from "react-countup";
+
 
 // icons
 import {
@@ -100,7 +102,17 @@ const About = () => {
             lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           {/* counters */}
-          <div>counters</div>
+          <div>
+            <div>
+              {/* experience */}
+              <div className="relative flex-1 after:w-[1px] after-h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={10} duration={5}/> +
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] mx-w-[100px]">Year of experience</div>
+              </div>
+            </div>
+          </div>
         </div>
         {/* info */}
         <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">

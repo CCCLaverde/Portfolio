@@ -1,8 +1,7 @@
-import Image from "next/image";
 
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
+import Bulb from "../components/Bulb";
 
 import { motion } from "framer-motion";
 
@@ -22,8 +21,8 @@ const Home = () => {
             exit='hidden'
             className="h1"
             >
-            Transforming Ideas <br/> Into {' '}
-            <span className="text-accent">Digital Reality</span>
+            Developing Software <br/> With {' '}
+            <span className="text-accent">Passion</span>
           </motion.h1>
           {/* subtitle */}
           <motion.p 
@@ -64,9 +63,9 @@ const Home = () => {
           animate='show'
           exit='hidden'
           transition={{ duration: 1, ease: 'easeInOut' }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[-11%]"
         >
-          <Avatar/>
+          <Bulb/>
         </motion.div>
 
       </div>

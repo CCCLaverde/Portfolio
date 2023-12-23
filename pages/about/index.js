@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import Avatar from "../../components/Avatar";
 import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
@@ -21,6 +20,7 @@ import {
 import {
   SiNextdotjs
 } from "react-icons/si";
+import Bulb from "../../components/Bulb";
 
 
 //  data
@@ -90,9 +90,9 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
+        className="hidden xl:flex absolute bottom-0 -left-[10px] mb-11"
       >
-        <Avatar />
+        <Bulb/>
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
@@ -106,7 +106,7 @@ const About = () => {
           >
             Captivating <span className="text-accent">stories</span> birth magnificent designs.</motion.h2>
           <motion.p 
-            className="max-w-[500] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+            className="max-w-[500] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
             variants={fadeIn('right', 0.4)}
             initial="hidden"
             animate="show"
@@ -127,7 +127,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={5}/> +
+                  <CountUp start={0} end={1} duration={5}/> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] mx-w-[100px]">
                   Years of experience
@@ -135,15 +135,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Clients */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5}/> +
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] mx-w-[100px]">
-                 Satiesfied clients
-                </div>
-            </div>
 
             {/* Projects */}
             <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">

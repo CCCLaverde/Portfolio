@@ -46,16 +46,12 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Public accountant.',
+        stage: '2020 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
+        title: 'Web Developer.',
+        stage: '2022 - 2023',
       },
     ],
   },
@@ -63,16 +59,12 @@ const aboutData = [
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Public accountant - Politecnico gran colombiano',
+        stage: '2020',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Web development - Autodidact, multiple courses',
+        stage: '2022',
       },
     ],
   },
@@ -90,7 +82,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[10px] mb-11"
+        className="hidden xl:flex absolute bottom-0 -left-[118px] mb-11"
       >
         <Bulb/>
       </motion.div>
@@ -104,7 +96,7 @@ const About = () => {
             animate="show"
             exit="hidden"
           >
-            Captivating <span className="text-accent">stories</span> birth magnificent designs.</motion.h2>
+            Pursuing <span className="text-accent">Passions</span> and dreams with effort.</motion.h2>
           <motion.p 
             className="max-w-[500] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 "
             variants={fadeIn('right', 0.4)}
@@ -112,7 +104,7 @@ const About = () => {
             animate="show"
             exit="hidden"
             > 
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit. lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            I am Cristian Castrillón Laverde, an accountant by profession and a developer by passion. I am currently 28 years old and I am Colombian. I have experience in the field of accounting, but I want to work as a software developer because it is my passion, and what better way to make a living than by doing what you love.
           </motion.p>
           {/* counters */}
           <motion.div 

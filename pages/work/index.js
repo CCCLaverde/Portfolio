@@ -31,7 +31,7 @@ const Work = () => {
                 exit='heidden'
                 className='mb-4 max-w-[400px] mx-auto lg:mx-0'
                 >
-                I am a full-stack developer and I am proficient in a wide range of technologies. I can help you with your next project.
+               I am a software developer, primarily working with JavaScript and using frameworks such as React and Next.js on the front end. Additionally, I use Node.js to create APIs that can be consumed on the client side. I enjoy continuous learning, and currently, I am studying React Native and Java (Spring Boot).
               </motion.p>
           </div>
           {/* slider */}

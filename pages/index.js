@@ -32,7 +32,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             >
-            lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Learning more and more about the wonderful world of software development and eager to continue growing, I would like to be part of your team to keep growing together. Keep exploring my portfolio.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
@@ -57,16 +57,11 @@ const Home = () => {
         {/* particles */}
         <ParticlesContainer />
         {/* Avatar img*/}
-        <motion.div
-          variants={fadeIn('up', 0.5)}
-          initial="hidden"
-          animate='show'
-          exit='hidden'
-          transition={{ duration: 1, ease: 'easeInOut' }}
+        <div
           className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[-11%]"
         >
           <Bulb/>
-        </motion.div>
+        </div>
 
       </div>
     </div>

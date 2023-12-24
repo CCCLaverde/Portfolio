@@ -5,19 +5,23 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/criptos.png',
+          link: 'https://laverde-cotizador-criptomonedas.netlify.app/'
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/pacientes.png',
+          link: 'https://laverde-registro-pacientes.netlify.app/'
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/guitarras.png',
+          link: 'https://guitar-la-next-cmhxqodun-ccclaverde.vercel.app/'
         },
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/pokemon3.png',
+          link: 'https://pokemon-static-next-js-six.vercel.app/'
         },
       ],
     },
@@ -25,19 +29,23 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/pokemon3.png',
+          link: 'https://pokemon-static-next-js-six.vercel.app/'
         },
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/criptos.png',
+          link: 'https://laverde-cotizador-criptomonedas.netlify.app/'
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/pacientes.png',
+          link: 'https://laverde-registro-pacientes.netlify.app/'
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/guitarras.png',
+          link: 'https://guitar-la-next-cmhxqodun-ccclaverde.vercel.app/'
         },
       ],
     },
@@ -52,12 +60,12 @@ import 'swiper/css/pagination';
 
 // icons
 import {
- BsArrowRight
+  BsArrowRight
 } from "react-icons/bs";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
 import Image from "next/image";
+import { Pagination } from "swiper";
 
 
 const WorkSlider = () => {
@@ -79,8 +87,11 @@ const WorkSlider = () => {
                   key={index}
                   className="relative rounded-lg overflow-hidden flex intems-center justify-center group"
                 >
+                  <a href={image.link} target="_blank" rel="noopener noreferrer" >
+                  
                   <div className="flex items-center justify-center relative overflow-hidden group">
                     {/* image */}
+                   
                     <Image
                       src={image.path}
                       alt=""
@@ -102,6 +113,7 @@ const WorkSlider = () => {
                       </div>
                     </div>
                 </div>
+                </a>
               </div>
       )}) }
           </div>

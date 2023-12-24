@@ -4,6 +4,18 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
+import {
+  FaCss3,
+  FaHtml5,
+  FaJs,
+  FaNodeJs,
+  FaReact
+} from "react-icons/fa";
+
+import {
+  SiNextdotjs
+} from "react-icons/si";
+
 // icons
 import {
   RxCrop,
@@ -20,29 +32,29 @@ import { Pagination, FreeMode } from "swiper";
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <RxDesktop />,
+    title: 'Development with React',
+    description: <FaReact className='text-4xl'/>,
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Web Layout with HTML' ,
+    description: <FaHtml5 className='text-4xl'/>,
+  },
+  {
+    icon: <RxPencil2 />,
+    title: 'Web styles and more with CSS' ,
+    description: <FaCss3 className='text-4xl'/>,
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Development  with Next.js',
+    description: <SiNextdotjs className='text-4xl'/>,
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Backend with Node.js',
+    description: <FaNodeJs className="text-4xl"/>,
   },
 ];
 

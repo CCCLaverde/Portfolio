@@ -29,7 +29,7 @@ const Services = () => {
                 exit='heidden'
                 className='mb-4 max-w-[400px] mx-auto lg:mx-0'
                 >
-                I am a full-stack developer and I am proficient in a wide range of technologies. I can help you with your next project.
+                I am a junior full-stack developer and I am proficient in a wide range of technologies. I can help you with your next project.
               </motion.p>
           </div>
           {/* slider */}

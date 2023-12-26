@@ -186,7 +186,7 @@ const About = () => {
             })}
           </div>
           <a 
-            href="https://drive.google.com/file/d/1q5Tk876CiSUEAb89tRRaQpPLhjoXdBzp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            href="https://drive.google.com/file/d/1q5Tk876CiSUEAb89tRRaQpPLhjoXdBzp/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <buttom className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group cursor-pointer mx-auto lg:mx-0'>
 
               <span className='group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500'>

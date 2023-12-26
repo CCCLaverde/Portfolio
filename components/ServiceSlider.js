@@ -53,7 +53,7 @@ const serviceData = [
   },
   {
     icon: <RxRocket />,
-    title: 'Backend with Node.js',
+    title: 'Backend and more with Node.js',
     description: <FaNodeJs className="text-4xl"/>,
   },
 ];

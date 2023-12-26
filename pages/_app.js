@@ -1,10 +1,10 @@
 import '../styles/globals.css';
 //componets
 import Layout from '../components/Layout';
-import  Transition from '../components/Transition';
+import Transition from '../components/Transition';
 //Router
-import { useRouter } from 'next/router';
 import { AnimatePresence, motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();

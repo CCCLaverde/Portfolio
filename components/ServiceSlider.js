@@ -38,7 +38,7 @@ const serviceData = [
   },
   {
     icon: <RxPencil2 />,
-    title: 'Web Layout with HTML' ,
+    title: 'Web Layout and more with HTML' ,
     description: <FaHtml5 className='text-4xl'/>,
   },
   {

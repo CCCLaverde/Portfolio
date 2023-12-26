@@ -75,7 +75,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left overflow-y-auto">
       <Circles />
       {/* avatar */}
       <motion.div
@@ -186,8 +186,8 @@ const About = () => {
             })}
           </div>
           <a 
-            href="" target="_blank" rel="noopener noreferrer">
-            <buttom className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group cursor-pointer'>
+            href="https://drive.google.com/file/d/1q5Tk876CiSUEAb89tRRaQpPLhjoXdBzp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <buttom className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group cursor-pointer mx-auto lg:mx-0'>
 
               <span className='group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500'>
                 Go to the CV
@@ -197,6 +197,14 @@ const About = () => {
             </buttom>
           </a>
         </motion.div>
+      </div>
+      <div>
+        <p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </p>
       </div>
     </div>
   )

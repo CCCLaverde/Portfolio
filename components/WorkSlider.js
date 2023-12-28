@@ -20,8 +20,8 @@ const workSlides = {
         },
         {
           title: 'title',
-          path: '/pokemon3.png',
-          link: 'https://pokemon-static-next-js-six.vercel.app/'
+          path: '/weather.png',
+          link: 'https://laverde-weather-app.netlify.app/'
         },
       ],
     },
